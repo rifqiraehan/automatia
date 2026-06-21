@@ -1,7 +1,7 @@
 function selectThirdOption(row) {
     const radios = row.querySelectorAll('input[type="radio"]');
     if (radios.length >= 3) {
-        radios[2].checked = true;
+        radios[3].checked = true; // Spam Rata Kanan
         console.log(`Selected third option in row:`, row);
     } else {
         console.log("Row has fewer than 3 radio options:", row);
